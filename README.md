@@ -15,8 +15,69 @@ Welcome to **CYBERSHADOW**, a powerful and stylish Python tool crafted by **AMIT
   - `requests` (for IP lookup)
 - Compatible with **Termux** (Android) or **Pydroid** (no root required).
 
-## Installation 💾
+  ## Installation 💾
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/cybershadow.git
-   cd cybershadow 
+   git clone https://github.com/dark-x-121/cybershadow.git
+   cd cybershadow
+   ```
+
+Install dependencies:
+
+*Termux:*
+```
+pkg install python
+pip install colorama requests
+```
+
+
+Run the tool:
+
+python cybershadow.py
+
+
+
+## sample Output 📸
+
+****************************************
+*     😈 CYBERSHADOW v1.0 😈         *
+*      (Shadow of the Dark Web)      *
+****************************************
+Community: DARK
+Author: AMIT
+---------------------------------------
+1. Start (IP Lookup)
+2. Exit
+Enter your choice (1-2): 1
+
+Starting CYBERSHADOW - IP Lookup Mode...
+Enter website URL (e.g., google.com, no https://): google.com
+
+* IP Lookup Results:
+* IP Address: 142.250.190.14
+* Country: United States
+* City: Mountain View
+* ISP: Google LLC
+* Press Enter to continue...
+
+
+
+*Contributing 🤝*
+
+Feel free to fork this repo and add more features (e.g., port scanning, web scraping).
+Submit pull requests or report issues on GitHub.
+
+## Disclaimer ⚠️
+
+This tool is for educational purposes only.
+Do NOT use it on any system or network without explicit permission.
+
+Misuse can lead to legal consequences. Stay ethical! 👮
+Credits 🙏
+
+Created by AMIT from the DARK community.
+
+Powered by ip-api.com for IP geolocation data.
+Stay Dark! 👾
+
+Follow my hacking journey on GitHub and let’s conquer the digital shadows together! 💻💥
